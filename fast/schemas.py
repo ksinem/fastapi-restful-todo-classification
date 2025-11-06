@@ -18,7 +18,11 @@ class TodoRead(TodoBase):
 class TodoDelete(TodoBase):
     task:str
 
-class TodoCreate2(TodoBase):
-    task: str
-    description: str
+class TodoCategory(TodoBase):
+    id: int
+    model_config = ConfigDict(from_attributes=True)
+    category: str
+
+
+
 

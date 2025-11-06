@@ -3,7 +3,6 @@ from sqlalchemy.orm import Session
 from model.predict import predict_category
 
 
-
 class TodoRepository:
 
     def __init__(self,session:Session):
@@ -28,3 +27,5 @@ class TodoRepository:
         self.session.refresh(todo)
         return predicted_cat
 
+
+#

@@ -28,6 +28,6 @@ def predict_category(task: str, description: str) -> str:
     return predicted_label
 
 
-print(predict_category(task="Fix database connection issue",
-                 description="Debug the production error caused by the recent migration script and roll back if necessary."))
+# print(predict_category(task="Fix database connection issue",
+#                  description="Debug the production error caused by the recent migration script and roll back if necessary."))
 # result: Development/Tech

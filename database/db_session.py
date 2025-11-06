@@ -26,20 +26,4 @@ def get_db() -> Generator[Session,None,None]:
         db.close()
 
 
-# class MySession(Session):
-#
-#     def __init__(self, database_url: str):
-#         super().__init__()
-#         self.database_url = database_url
-#         engine = create_engine(self.database_url, echo=True)
-#         self.Session = sessionmaker(bind=engine)
-#         self.Base = declarative_base()
-#
-#     def get_db(self) -> Generator[Session, None, None]:
-#         db = self.Session()
-#         try:
-#             yield db
-#         finally:
-#             db.close()
-
 
