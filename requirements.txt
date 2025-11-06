@@ -1,0 +1,9 @@
+bcrypt==5.0.0
+email-validator==2.3.0
+fastapi==0.120.1
+mysql-connector-python==9.4.0
+pip==25.2
+PyMySQL==1.1.2
+pytest==8.4.2
+SQLAlchemy==2.0.44
+uvicorn==0.38.0

@@ -1,0 +1,27 @@
+{
+    "paths": {
+        "train_data": "../train_data/task_desc_label.json",
+        "model_dumps_dir": "model_dumps"
+    },
+    "general": {
+        "target_column": "label",
+        "feature_columns": ["task", "description"]
+    },
+    "model_config": {
+        "active_model": "linear_svc",
+        "params": {
+                "C": 1.0,
+                "loss": "squared_hinge",
+                "penalty": "l2",
+                "dual": true,
+                "random_state": 42
+            },
+
+        "vectorizer": {
+            "params": {
+                "ngram_range": [1, 2],
+                "stop_words": "english"
+            }
+        }
+    }
+}

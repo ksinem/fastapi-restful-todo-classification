@@ -1,0 +1,4 @@
+.venv
+.*.txt
+security
+test.py

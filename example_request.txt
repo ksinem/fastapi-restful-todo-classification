@@ -1,0 +1,6 @@
+{
+  "task": "Fix database connection issue",
+  "description": "Debug the production error caused by the recent migration script and roll back if necessary.",
+  "deadline": "2025-11-03",
+  "state": "OPEN"
+}

@@ -1,0 +1,7 @@
+## Importe
+* Vorher habe ich Pfade benutzt wie 
+* from Cimdata_projects.AutomaticTaskCategorization.model.table import Todo
+<br> das hat zu Problemen geführt. Mein Base.metadata kannte z. B. gar nicht meine 'todos' Tabelle.
+* Dann habe ich das Projekt zum source root gemacht und nur sowas benutzt wie 
+* from model.table import Todo
+<br> das hat dann funktioniert. Wieso?

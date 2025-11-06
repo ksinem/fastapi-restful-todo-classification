@@ -1,0 +1,252 @@
+[
+    {
+        "task": "Develop new API endpoint for user data",
+        "description": "Use Python and FastAPI to create the /api/v2/users/ route according to the spec document.",
+        "label": "Development/Tech"
+    },
+    {
+        "task": "Review pull request from intern (Feature X)",
+        "description": "Check code quality, run unit tests, and provide feedback on the branch before merging.",
+        "label": "Development/Tech"
+    },
+    {
+        "task": "Set up development environment on new laptop",
+        "description": "Install Docker, PyCharm, and configure Git access tokens.",
+        "label": "Development/Tech"
+    },
+    {
+        "task": "Fix customer bug (ID #1234)",
+        "description": "Debug the code to find the issue causing the payment API crash.",
+        "label": "Development/Tech"
+    },
+    {
+        "task": "Write documentation for API rate limits",
+        "description": "Update the external developer documentation on GitHub Pages with new throttling information.",
+        "label": "Development/Tech"
+    },
+    {
+        "task": "Review security vulnerability scan results",
+        "description": "Analyze the findings from the latest check and implement necessary patches to the firewall configuration.",
+        "label": "Development/Tech"
+    },
+    {
+        "task": "Create new marketing landing page design",
+        "description": "Design the new section using Figma, focusing on mobile responsiveness and accessibility.",
+        "label": "Development/Tech"
+    },
+    {
+        "task": "Migrate database schema to PostgreSQL",
+        "description": "Write the migration script and test data integrity after the transformation process.",
+        "label": "Development/Tech"
+    },
+    {
+        "task": "Perform load testing on production environment",
+        "description": "Use JMeter to simulate 1000 concurrent users and monitor system response times.",
+        "label": "Development/Tech"
+    },
+    {
+        "task": "Implement unit tests for new service layer",
+        "description": "Ensure 100% coverage by writing comprehensive test cases for the `UserService` and `AuthService`.",
+        "label": "Development/Tech"
+    },
+    {
+        "task": "Email Ms. Miller (Sales)",
+        "description": "Respond to her question regarding the new price lists and confirm availability of Product A.",
+        "label": "Communication/Sales"
+    },
+    {
+        "task": "Draft monthly email newsletter",
+        "description": "Write short blurbs about product updates and schedule the send-out for next Tuesday morning.",
+        "label": "Communication/Sales"
+    },
+    {
+        "task": "Follow up with potential client 'Alpha Corp'",
+        "description": "Send the presentation slides discussed last week and confirm next meeting date.",
+        "label": "Communication/Sales"
+    },
+    {
+        "task": "Set up a demo for Client Beta Inc.",
+        "description": "Prepare a live demonstration of the software's new capabilities focused on integration points.",
+        "label": "Communication/Sales"
+    },
+    {
+        "task": "Send follow-up email after new feature launch",
+        "description": "Craft a concise message highlighting the benefits and linking to the new documentation page.",
+        "label": "Communication/Sales"
+    },
+    {
+        "task": "Write compelling ad copy for social media",
+        "description": "Develop short, engaging text snippets optimized for Facebook and LinkedIn campaigns.",
+        "label": "Communication/Sales"
+    },
+    {
+        "task": "Schedule QBR (Quarterly Business Review) meeting",
+        "description": "Send invitations to all department heads and create the agenda focusing on quarterly targets.",
+        "label": "Communication/Sales"
+    },
+    {
+        "task": "Negotiate contract terms with new supplier",
+        "description": "Review the pricing proposal and discuss payment terms via a conference call.",
+        "label": "Communication/Sales"
+    },
+    {
+        "task": "Prepare pitch deck for investor meeting next week",
+        "description": "Finalize market analysis slides and revenue projections for the presentation.",
+        "label": "Communication/Sales"
+    },
+    {
+        "task": "Conduct user feedback survey on new website flow",
+        "description": "Design and launch the survey to collect data on usability and potential pain points.",
+        "label": "Communication/Sales"
+    },
+    {
+        "task": "Prepare Q4 Budget presentation",
+        "description": "Collect all spending figures from the finance department spreadsheet for the manager review.",
+        "label": "Finance/HR"
+    },
+    {
+        "task": "Schedule annual performance review",
+        "description": "Book a 30-minute slot with HR and prepare my achievement summary document.",
+        "label": "Finance/HR"
+    },
+    {
+        "task": "Confirm vendor invoice payment",
+        "description": "Call the vendor to ensure the payment for the last shipment has been processed successfully.",
+        "label": "Finance/HR"
+    },
+    {
+        "task": "File expense report for travel to conference",
+        "description": "Collate receipts and submit all accrued expenses via the company's financial system.",
+        "label": "Finance/HR"
+    },
+    {
+        "task": "Review and approve team timesheets",
+        "description": "Verify that all team members have accurately recorded their hours and approve them before the deadline.",
+        "label": "Finance/HR"
+    },
+    {
+        "task": "Process payroll for the current month",
+        "description": "Verify employee hours and submit the final payment file to the bank for processing.",
+        "label": "Finance/HR"
+    },
+    {
+        "task": "Calculate quarterly tax liabilities",
+        "description": "Compile financial statements and determine the estimated tax payment due to the authorities.",
+        "label": "Finance/HR"
+    },
+    {
+        "task": "Update employee contact information in HR system",
+        "description": "Input new addresses and phone numbers collected from the recent internal survey.",
+        "label": "Finance/HR"
+    },
+    {
+        "task": "Reconcile corporate credit card statements",
+        "description": "Match all transactions with receipts and categorize them in the accounting software.",
+        "label": "Finance/HR"
+    },
+    {
+        "task": "Design new employee onboarding package",
+        "description": "Create welcome documents and manage the distribution of starter kits for new hires.",
+        "label": "Finance/HR"
+    },
+    {
+        "task": "Finalize project plan for Q3",
+        "description": "Update the Gantt chart in tool XYZ and sync milestones with the team.",
+        "label": "Project/Planning"
+    },
+    {
+        "task": "Call team to discuss sprint scope",
+        "description": "Organize a brief huddle to finalize stories and estimate the upcoming work effort.",
+        "label": "Project/Planning"
+    },
+    {
+        "task": "Assign tickets for the next sprint",
+        "description": "Review the backlog, prioritize items, and distribute tasks to team members in Jira.",
+        "label": "Project/Planning"
+    },
+    {
+        "task": "Conduct weekly status meeting",
+        "description": "Lead the stand-up to review progress, identify blockers, and set priorities for the week.",
+        "label": "Project/Planning"
+    },
+    {
+        "task": "Write comprehensive risk assessment report",
+        "description": "Document potential project risks, analyze their impact, and define mitigation strategies.",
+        "label": "Project/Planning"
+    },
+    {
+        "task": "Update project timeline for management review",
+        "description": "Adjust dates based on recent delays and highlight critical path items in the schedule.",
+        "label": "Project/Planning"
+    },
+    {
+        "task": "Organize kick-off meeting for the new client feature",
+        "description": "Book the room, prepare the introductory slides, and invite all relevant stakeholders.",
+        "label": "Project/Planning"
+    },
+    {
+        "task": "Define success metrics for the A/B test",
+        "description": "Establish clear KPIs (conversion rate, time on page) for evaluating the experiment.",
+        "label": "Project/Planning"
+    },
+    {
+        "task": "Review deliverables with QA team",
+        "description": "Check if the developed features meet the acceptance criteria before final sign-off.",
+        "label": "Project/Planning"
+    },
+    {
+        "task": "Generate burn-down chart for last sprint",
+        "description": "Export sprint data from Trello/Jira and analyze team velocity and remaining work.",
+        "label": "Project/Planning"
+    },
+    {
+        "task": "Order new monitor and ergonomic chair",
+        "description": "Submit purchasing request through the internal procurement system.",
+        "label": "Admin/Internal"
+    },
+    {
+        "task": "Update password in corporate system",
+        "description": "Change personal login credentials for the internal CRM and ticketing tools.",
+        "label": "Admin/Internal"
+    },
+    {
+        "task": "Book flight and hotel for January workshop",
+        "description": "Use the corporate travel portal to arrange all travel details for the two-day event.",
+        "label": "Admin/Internal"
+    },
+    {
+        "task": "Request new access rights for the file server",
+        "description": "Submit a ticket to IT detailing which folders and drives require elevated permissions.",
+        "label": "Admin/Internal"
+    },
+    {
+        "task": "Setup new user account for onboarding",
+        "description": "Create an email, Slack, and system login for the new employee starting next week.",
+        "label": "Admin/Internal"
+    },
+    {
+        "task": "Clean and organize shared kitchen area",
+        "description": "Empty the dishwasher, wipe down countertops, and replenish coffee supplies.",
+        "label": "Admin/Internal"
+    },
+    {
+        "task": "Troubleshoot VPN connection issue on laptop",
+        "description": "Check network settings and reset the VPN client to restore secure access.",
+        "label": "Admin/Internal"
+    },
+    {
+        "task": "Replace toner in the office printer",
+        "description": "Order a new cartridge and install it in the main color laser printer.",
+        "label": "Admin/Internal"
+    },
+    {
+        "task": "Reserve conference room for monthly board meeting",
+        "description": "Book the large meeting room (Room 3A) for three hours next Thursday afternoon.",
+        "label": "Admin/Internal"
+    },
+    {
+        "task": "Update office seating chart after department move",
+        "description": "Adjust the floor plan document and inform relevant teams of the new desk assignments.",
+        "label": "Admin/Internal"
+    }
+]
