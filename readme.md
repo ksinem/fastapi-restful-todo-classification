@@ -6,12 +6,12 @@
 
 ## Features
 * create_todo <br> 
--> title and description must not be null, they are used to train the clustering algorithm
+-> title and description must not be null, they are used to train the classification algorithm
 * delete_todo
 
 
-## Task Clustering
-* KMeans from *sklearn*
+## Task Classification
+* LinearSVC from *sklearn*
 * input: task + description
 
 
