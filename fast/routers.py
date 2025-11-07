@@ -13,7 +13,7 @@ todo_router = APIRouter(prefix="/todos", tags=["todos"])
 
 
 @todo_router.post("/", response_model=TodoCategory)  #http://127.0.0.1:8000/todos/?user_id=1
-def automatically_categorize_new_todo(todo:TodoCreate, db: Session = Depends(get_db)):
+def add_and_categorize_new_todo(todo:TodoCreate, db: Session = Depends(get_db)):
     repo = TodoRepository(db)
     predicted_category = predict_category(
         task=todo.task,
@@ -24,12 +24,22 @@ def automatically_categorize_new_todo(todo:TodoCreate, db: Session = Depends(get
     todo_db = Todo(**todo_data)
     return repo.create_todo(todo_db)
 
+
 @todo_router.delete("/{todo_id}", response_model=bool)
-def delete_todo(todo: TodoDelete, db:Session = Depends(get_db)):
+def delete_todo_by_id(todo_id: int, db: Session = Depends(get_db)):
     repo = TodoRepository(db)
-    todo_db = Todo(**todo.model_dump())
-    return repo.delete_todo(todo_db)
+    was_deleted = repo.delete_todo_by_id(todo_id)
+    if not was_deleted:
+        raise HTTPException(status_code=404, detail="Todo not found")
+    return True
 
 
+@todo_router.delete("/state/{todo_state}", response_model=bool)
+def delete_todo_by_state(todo_state: str, db: Session = Depends(get_db)):
+    repo = TodoRepository(db)
+    was_deleted = repo.delete_todo_by_state(todo_state)
+    if not was_deleted:
+        raise HTTPException(status_code=404, detail="Todo not found")
+    return True
 
 

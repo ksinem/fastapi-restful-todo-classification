@@ -14,11 +14,19 @@ class TodoRepository:
         self.session.refresh(todo)
         return todo
 
-    def delete_todo(self, todo:Todo) -> Todo:
-        self.session.delete(todo)
+    def delete_todo_by_id(self, todo_id: int) -> bool:
+        todo_to_delete = self.session.query(Todo).filter(Todo.id == todo_id).first()
+        if todo_to_delete:
+            self.session.delete(todo_to_delete)
+            self.session.commit()
+            return True
+        return False
+
+    def delete_todo_by_state(self, todo_state: str) -> bool:
+        deleted_count = self.session.query(Todo).filter(Todo.state == todo_state).delete(synchronize_session='fetch')
         self.session.commit()
-        self.session.refresh(todo)
-        return todo
+        return deleted_count > 0
+
 
     def predict_category(self, todo:Todo) -> str:
         predicted_cat = predict_category(todo.task, todo.description)
