@@ -7,7 +7,8 @@
 ## Features
 * create_todo <br> 
 -> title and description must not be null, they are used to train the classification algorithm
-* delete_todo
+* delete_todo_by_id
+* delete_todo_by_state
 
 
 ## Task Classification
